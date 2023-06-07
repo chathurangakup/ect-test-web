@@ -1,0 +1,95 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .content-container-uploadimg {
+    height:  100vh;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-image {
+    width: 200px;
+    height: 200px;
+    /* Add any additional styling you need for the button image */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .button-image {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button-image {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .uploaded-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .uploaded-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .button-upload {
+    margin-top: 20%;
+    margin-left: 25%;
+
+  }
+
+
+  .charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+  }
+  
+  .chart-item {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .charts-container {
+      flex-direction: column;
+      padding-left: 10%;
+    }
+  
+    .chart-item {
+      width: 100%;
+    }
+  }
+  
